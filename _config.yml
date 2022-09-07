@@ -70,11 +70,11 @@ content:
     content:
       - layout: top-middle
         title: University of Illinois at Urbana-Champaign
-        caption: "January 2022 - Present (Expected Graduation: May 2024)"
-        sub_title: |
-          Computer Science + Econ
+        caption: |
+          "January 2022 - Present (Expected Graduation: May 2024)"
 
           GPA: 4.0
+        sub_title: Computer Science + Econ
         # quote: >
         #   GPA: 4.0
         # description: | # this will include new lines to allow paragraphs
