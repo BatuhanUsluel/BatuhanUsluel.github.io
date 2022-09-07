@@ -10,7 +10,6 @@ version: 2
 name: Batuhan Usluel
 title: CS + Econ at UIUC
 email: me@batuhanusluel.com
-website: http://batuhanusluel.com/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -108,6 +107,56 @@ content:
           - Connected to exchanges via their APIs, fetching prices and checking if there were profitable trades available.
           - Automatically executed trades when profitable ones were detected.
           - Open sourced on GitHub, received 140+ stars and 60+ forks.
+
+      - layout: top-middle
+        title: Trading Automator Bot | Java
+        link: https://github.com/BatuhanUsluel/Trading-Automator-Bot
+        description: | # this will include new lines to allow paragraphs
+          - Created a GUI Application to trade cryptocurrencies. 
+          - Has features such as Arbitrage, basic market making, back-testing and live trading simple TA Strategies, dollar-cost averaging, trailing stops, and more.
+          - Supports dozens of different exchanges using the Xchange library.
+
+      - layout: top-middle
+        title: BTSplit | Python
+        link: https://github.com/BatuhanUsluel/BTSplit
+        description: | # this will include new lines to allow paragraphs
+          - Coded a tool to manage large spreadsheet files due to the limitation of ~1 million rows in excel files.
+          - Can split a larger file into many sheets or subfiles of various file types, adjusts formulas to point to new cells.
+          - Supports different file types (.csv, .xlsx, .xls) and has many customizable settings.
+
+      - layout: top-middle
+        title: iDetect | Python
+        link: https://devpost.com/software/idetect
+        additional_links:
+          - title:  ClassAttentionDetector
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/ClassAttentionDetector
+        description: | # this will include new lines to allow paragraphs
+          - Created a application to analyze video calls
+          - Graphs out real-time graph of aggregate emotions over time
+          - Done during iMAKE hackathon hosted by Illini Esports
+
+      - layout: top-middle
+        title: RMV Road Test Appointment Finder | Python
+        additional_links:
+          - title:  RMV Road Test Appointment Finder
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/RMV-Road-Test-Appointment-Finder
+        description: | # this will include new lines to allow paragraphs
+          - Regularly searches the RMV website for desired road test appointments
+          - Notifies the user when an appointment is found
+
+      - layout: top-middle
+        title: Chrome Video Note Taker | JavaScript
+        link: https://devpost.com/software/video-note-taker
+        additional_links:
+          - title: Chrome Video Note Taker
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/Chrome-Video-Note-Taker
+        description: | # this will include new lines to allow paragraphs
+          - Chrome extension that allows you to take notes as you are watching a video.
+          - Can later on click on a note which opens up the video at the right timestamp.
+          - Done during 'Hello World 2020' hackathon at Purdue.
 
 
 
