@@ -56,13 +56,14 @@ content:
       - layout: left
         title: CME Group
         link: cmegroup.com
-        # link_text: boringcompany.com
         sub_title: Software Engineer Intern
         caption: May 2022 - Aug 2022
-        quote: >
-          TEMP
         description: | # this will include new lines to allow paragraphs
-          TEMP
+          Wrote an application in Java for real time testing of their matching engine.
+          Replaced periodic manual checks for errors with an automated system.
+          Pinpoints exact message where mistakes started occurring.
+          Deployed Kafka instance to listen to engine and relay messages for performance and reliability reasons.
+
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
