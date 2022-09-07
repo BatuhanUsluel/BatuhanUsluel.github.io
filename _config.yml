@@ -59,10 +59,10 @@ content:
         sub_title: Software Engineer Intern
         caption: May 2022 - Aug 2022
         description: | # this will include new lines to allow paragraphs
-          Wrote an application in Java for real time testing of their matching engine.
-          Replaced periodic manual checks for errors with an automated system.
-          Pinpoints exact message where mistakes started occurring.
-          Deployed Kafka instance to listen to engine and relay messages for performance and reliability reasons.
+          - Wrote an application in Java for real time testing of their matching engine.
+          - Replaced periodic manual checks for errors with an automated system.
+          - Pinpoints exact message where mistakes started occurring.
+          - Deployed Kafka instance to listen to engine and relay messages for performance and reliability reasons.
 
 
   - title: Education # Title for the section
@@ -71,9 +71,12 @@ content:
       - layout: top-middle
         title: University of Illinois at Urbana-Champaign
         caption: "January 2022 - Present (Expected Graduation: May 2024)"
-        sub_title: Computer Science + Econ
-        quote: >
+        sub_title: |
+          Computer Science + Econ
+
           GPA: 4.0
+        # quote: >
+        #   GPA: 4.0
         # description: | # this will include new lines to allow paragraphs
         #   TEMP
       - layout: top-middle
@@ -92,19 +95,19 @@ content:
         title: Algorithmic Support and Resistance | Python
         link: https://github.com/BatuhanUsluel/Algorithmic-Support-and-Resistance
         description: | # this will include new lines to allow paragraphs
-          Coded a project to find reversal points on stock prices.
-          Detects reversal points by finding clusters of local min and max points.
-          Retrieves stock price history through Yahoo Finance, displayed charts with reversal points marked.
-          Well received by people, has  190+ stars and 30+ forks on GitHub.
+          - Coded a project to find reversal points on stock prices.
+          - Detects reversal points by finding clusters of local min and max points.
+          - Retrieves stock price history through Yahoo Finance, displayed charts with reversal points marked.
+          - Well received by people, has  190+ stars and 30+ forks on GitHub.
       
       - layout: top-middle
         title: Arbitrage Bot | Python
         link: https://github.com/BatuhanUsluel/ArbitrageBot
         description: | # this will include new lines to allow paragraphs
-          Developed a trading bot for cryptocurrencies that took advantage of pricing discrepancies between exchanges.
-          Connected to exchanges via their APIs, fetching prices and checking if there were profitable trades available.
-          Automatically executed trades when profitable ones were detected.
-          Open sourced on GitHub, received 140+ stars and 60+ forks.
+          - Developed a trading bot for cryptocurrencies that took advantage of pricing discrepancies between exchanges.
+          - Connected to exchanges via their APIs, fetching prices and checking if there were profitable trades available.
+          - Automatically executed trades when profitable ones were detected.
+          - Open sourced on GitHub, received 140+ stars and 60+ forks.
 
 
 
