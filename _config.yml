@@ -70,9 +70,8 @@ content:
       - layout: top-middle
         title: University of Illinois at Urbana-Champaign
         caption: |
-          January 2022 - Present (Expected Graduation: May 2024)
-            
-          GPA: 4.0
+          January 2022 - Present (Expected Graduation: May 2024)  <br>
+          GPA: 4.00
         sub_title: Computer Science + Econ
         # quote: >
         #   GPA: 4.0
@@ -80,10 +79,11 @@ content:
         #   TEMP
       - layout: top-middle
         title: Purdue University
-        caption: August 2020 - December 2021
-        sub_title: Computer Science
-        quote: >
+        caption: |
+          August 2020 - December 2021 <br>
           GPA: 3.56
+        sub_title: Computer Science
+        # quote: >
         # description: | # this will include new lines to allow paragraphs
         #   TEMP
 
