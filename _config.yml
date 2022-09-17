@@ -59,7 +59,7 @@ content:
         caption: May 2022 - Aug 2022
         description: | # this will include new lines to allow paragraphs
           - Built an application in Java for real time testing of CMEs buyer seller matching engines.
-          - Application compares outputs of a known working version to a new prototype version.
+          - Compares outputs of a known working version to a new prototype version.
           - Replaced periodic manual error checks with an automated alerting system.
           - Deployed Kafka to listen to engine and relay messages for performance and reliability logs.
 
