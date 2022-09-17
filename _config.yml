@@ -8,7 +8,7 @@ version: 2
 
 # Personal info
 name: Batuhan Usluel
-title: CS + Econ at UIUC
+title: CS + Economics at UIUC
 email: me@batuhanusluel.com
 
 # Dark Mode (true/false/never)
@@ -58,11 +58,10 @@ content:
         sub_title: Software Engineer Intern
         caption: May 2022 - Aug 2022
         description: | # this will include new lines to allow paragraphs
-          - Wrote an application in Java for real time testing of their matching engine.
-          - Replaced periodic manual checks for errors with an automated system.
-          - Pinpoints exact message where mistakes started occurring.
-          - Deployed Kafka instance to listen to engine and relay messages for performance and reliability reasons.
-
+          - Built an application in Java for real time testing of CMEs buyer seller matching engines.
+          - Application compares outputs of a known working version to a new prototype version.
+          - Replaced periodic manual error checks with an automated alerting system.
+          - Deployed Kafka to listen to engine and relay messages for performance and reliability logs.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -72,7 +71,7 @@ content:
         caption: |
           January 2022 - Present (Expected Graduation: May 2024)  <br>
           GPA: 4.00
-        sub_title: Computer Science + Econ
+        sub_title: Computer Science + Economics
         # quote: >
         #   GPA: 4.0
         # description: | # this will include new lines to allow paragraphs
