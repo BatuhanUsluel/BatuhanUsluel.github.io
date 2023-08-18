@@ -93,9 +93,9 @@ content:
         title: RetailGPT | Javascript
         link: https://retailgpt.chat/
         description: | # this will include new lines to allow paragraphs
-          - Developed AI-powered chatbot using GPT-4 for Shopify, enabling automated customer support.
-          - Backend uses node.js and Express, deployed on AWS.
-          - Frontend is built in React and javascript.
+        - Engineered an AI-powered chatbot using GPT-4, enabling automated, intelligent customer support for Shopify merchants.
+        - Developed a scalable backend with Node.js and Express, deployed and managed on Amazon Web Services (AWS).
+        - Crafted a responsive frontend using React and JavaScript, focused on providing an intuitive and seamless user experience.
 
       - layout: top-middle
         title: App Performance Tracker (Comp) | Javascript & Python
