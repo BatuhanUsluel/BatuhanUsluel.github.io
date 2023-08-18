@@ -62,6 +62,13 @@ content:
           - Compares outputs of a known working version to a new prototype version.
           - Replaced periodic manual error checks with an automated alerting system.
           - Deployed Kafka to listen to engine and relay messages for performance and reliability logs.
+      - layout: left
+        title: CME Group
+        link: cmegroup.com
+        sub_title: Software Engineer Intern
+        caption: May 2023 - Aug 2023
+        description: | # this will include new lines to allow paragraphs
+          - ToDo
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
