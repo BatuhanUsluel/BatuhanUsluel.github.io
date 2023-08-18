@@ -109,6 +109,22 @@ content:
           - Designed and implemented a Django backend, serving as a RESTful API that scrapes, processes, and delivers app performance data to the frontend.
 
       - layout: top-middle
+        title: iDetect | Python
+        link: https://devpost.com/software/idetect
+        additional_links:
+          - title:  ClassAttentionDetector
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/ClassAttentionDetector
+        additional_links:
+          - title:  ClassAttentionDetector
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=9xF6H83u_Nc
+        description: | # this will include new lines to allow paragraphs
+          - Developed "iDetect," a real-time emotion analysis application, at the iMAKE hackathon, enabling speakers in virtual meetings to gauge audience engagement by analyzing video streams.
+          - Utilized Python’s DeepFace library for facial recognition and emotion classification
+          - Designed and implemented data visualization components to display real-time emotion statistics via tables and graphs.
+          
+      - layout: top-middle
         title: Algorithmic Support and Resistance | Python
         additional_links:
           - title:  Algorithmic Support and Resistance
@@ -153,19 +169,7 @@ content:
           - Coded a tool to manage large spreadsheet files due to the limitation of ~1 million rows in excel files.
           - Can split a larger file into many sheets or subfiles of various file types, adjusts formulas to point to new cells.
           - Supports different file types (.csv, .xlsx, .xls) and has many customizable settings.
-
-      - layout: top-middle
-        title: iDetect | Python
-        link: https://devpost.com/software/idetect
-        additional_links:
-          - title:  ClassAttentionDetector
-            icon: fab fa-github
-            url: https://github.com/BatuhanUsluel/ClassAttentionDetector
-        description: | # this will include new lines to allow paragraphs
-          - Created a application to analyze video calls
-          - Graphs out real-time graph of aggregate emotions over time
-          - Done during iMAKE hackathon hosted by Illini Esports
-
+          
       - layout: top-middle
         title: RMV Road Test Appointment Finder | Python
         additional_links:
