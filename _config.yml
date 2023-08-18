@@ -70,7 +70,7 @@ content:
         title: University of Illinois at Urbana-Champaign
         caption: |
           January 2022 - Present (Expected Graduation: May 2024)  <br>
-          GPA: 4.00
+          GPA: 3.93
         sub_title: Computer Science + Economics
         # quote: >
         #   GPA: 4.0
@@ -90,8 +90,30 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: RetailGPT | Javascript
+        link: https://retailgpt.chat/
+        description: | # this will include new lines to allow paragraphs
+          - Developed AI-powered chatbot using GPT-4 for Shopify, enabling automated customer support.
+          - Backend uses node.js and Express, deployed on AWS.
+          - Frontend is built in React and javascript.
+
+      - layout: top-middle
+        title: App Performance Tracker (Comp) | Javascript & Python
+        additional_links:
+          - title:  App Performance Tracker (Comp)
+            icon: fab fa-github
+            url: https://github.com/CS222-UIUC/course-project-group-negative10
+        description: | # this will include new lines to allow paragraphs
+          - Developed a responsive and intuitive user interface using React and JavaScript, empowering app developers to track and compare their app’s performance against competitors across Google Play and Apple App Stores.
+          - Implemented real-time review tracking feature for the Play Store, enabling developers to monitor user sentiment and feedback over time, and correlating this with specific updates to their app.
+          - Designed and implemented a Django backend, serving as a RESTful API that scrapes, processes, and delivers app performance data to the frontend.
+
+      - layout: top-middle
         title: Algorithmic Support and Resistance | Python
-        link: https://github.com/BatuhanUsluel/Algorithmic-Support-and-Resistance
+        additional_links:
+          - title:  Algorithmic Support and Resistance
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/Algorithmic-Support-and-Resistance
         description: | # this will include new lines to allow paragraphs
           - Coded a project to find reversal points on stock prices.
           - Detects reversal points by finding clusters of local min and max points.
@@ -100,7 +122,10 @@ content:
       
       - layout: top-middle
         title: Arbitrage Bot | Python
-        link: https://github.com/BatuhanUsluel/ArbitrageBot
+        additional_links:
+          - title:  Arbitrage Bot
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/ArbitrageBot
         description: | # this will include new lines to allow paragraphs
           - Developed a trading bot for cryptocurrencies that took advantage of pricing discrepancies between exchanges.
           - Connected to exchanges via their APIs, fetching prices and checking if there were profitable trades available.
@@ -109,7 +134,10 @@ content:
 
       - layout: top-middle
         title: Trading Automator Bot | Java
-        link: https://github.com/BatuhanUsluel/Trading-Automator-Bot
+        additional_links:
+          - title:  Trading Automator Bot
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/Trading-Automator-Bot
         description: | # this will include new lines to allow paragraphs
           - Created a GUI Application to trade cryptocurrencies. 
           - Has features such as Arbitrage, basic market making, back-testing and live trading simple TA Strategies, dollar-cost averaging, trailing stops, and more.
@@ -117,7 +145,10 @@ content:
 
       - layout: top-middle
         title: BTSplit | Python
-        link: https://github.com/BatuhanUsluel/BTSplit
+        additional_links:
+          - title:  BTSplit
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/BTSplit
         description: | # this will include new lines to allow paragraphs
           - Coded a tool to manage large spreadsheet files due to the limitation of ~1 million rows in excel files.
           - Can split a larger file into many sheets or subfiles of various file types, adjusts formulas to point to new cells.
@@ -156,6 +187,19 @@ content:
           - Chrome extension that allows you to take notes as you are watching a video.
           - Can later on click on a note which opens up the video at the right timestamp.
           - Done during 'Hello World 2020' hackathon at Purdue.
+
+      - layout: top-middle
+        title: Spotify Song Announcer | Python
+        additional_links:
+          - title: Spotify Song Announcer
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/Spotify-Song-Announcer
+        description: | # this will include new lines to allow paragraphs
+          - Created "Spotify Song Announcer," a Python application that detects song changes in Spotify and audibly announces the song name and artist, enhancing user experience.
+          - Utilized SwSpotify for song information retrieval, bypassing the need for Spotify API and enabling offline usage.
+          - Integrated pyttsx3 for text-to-speech conversion.
+          - Configurable options for voice selection, announcement delay, and speaking rate, allowing for personalized user settings via command line arguments.
+
 
 
 
