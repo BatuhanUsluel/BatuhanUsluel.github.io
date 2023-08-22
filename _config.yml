@@ -69,7 +69,7 @@ content:
         title: CME Group
         link: cmegroup.com
         sub_title: Software Engineer Intern
-        caption: May 2023 - Aug 2023
+        caption: May 2023 - August 2023
         description: | # this will include new lines to allow paragraphs
           - Returned for a second internship at CME Group, further enhancing the application I initially developed.
           - Implemented configurable validators, allowing adaptable testing conditions in the development cycle.
@@ -80,7 +80,7 @@ content:
         title: CME Group
         link: cmegroup.com
         sub_title: Software Engineer Intern
-        caption: May 2022 - Aug 2022
+        caption: May 2022 - August 2022
         description: | # this will include new lines to allow paragraphs
           - Built an application in Java for real time testing of CMEs buyer seller matching engines.
           - Compares outputs of a known working version to a new prototype version.
