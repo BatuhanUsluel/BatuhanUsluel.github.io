@@ -8,7 +8,7 @@ version: 2
 
 # Personal info
 name: Batuhan Usluel
-title: CS + Economics at UIUC
+title: Computer Science + Economics at UIUC
 email: me@batuhanusluel.com
 
 # Dark Mode (true/false/never)
@@ -69,19 +69,23 @@ content:
         title: CME Group
         link: cmegroup.com
         sub_title: Software Engineer Intern
+        caption: May 2023 - Aug 2023
+        description: | # this will include new lines to allow paragraphs
+          - Returned for a second internship at CME Group, building upon my previous work and further enhancing the application I initially developed.
+          - Implemented configurable validators, allowing adaptable testing conditions and efficient bug detection early in the development cycle.
+          - Dramatically improved application performance, cutting execution time from 16 minutes to 2 minutes, thereby streamlining the development process.
+          - By catching errors early and pinpointing their locations, saved countless developer hours that would otherwise be spent on debugging.
+          - Elevated the application to become an essential tool in the daily development routine, reducing the risk of downstream issues.
+      - layout: left
+        title: CME Group
+        link: cmegroup.com
+        sub_title: Software Engineer Intern
         caption: May 2022 - Aug 2022
         description: | # this will include new lines to allow paragraphs
           - Built an application in Java for real time testing of CMEs buyer seller matching engines.
           - Compares outputs of a known working version to a new prototype version.
           - Replaced periodic manual error checks with an automated alerting system.
           - Deployed Kafka to listen to engine and relay messages for performance and reliability logs.
-      - layout: left
-        title: CME Group
-        link: cmegroup.com
-        sub_title: Software Engineer Intern
-        caption: May 2023 - Aug 2023
-        description: | # this will include new lines to allow paragraphs
-          - ToDo
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
