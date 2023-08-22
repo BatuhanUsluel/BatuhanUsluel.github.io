@@ -123,9 +123,9 @@ content:
           - Crafted a responsive frontend using React and JavaScript, focused on providing an intuitive and seamless user experience.
 
       - layout: top-middle
-        title: App Performance Tracker (Comp) | Javascript & Python
+        title: App Performance Tracker | Javascript & Python
         additional_links:
-          - title:  App Performance Tracker (Comp)
+          - title:  App Performance Tracker
             icon: fab fa-github
             url: https://github.com/CS222-UIUC/course-project-group-negative10
         description: | # this will include new lines to allow paragraphs
