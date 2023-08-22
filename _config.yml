@@ -71,11 +71,11 @@ content:
         sub_title: Software Engineer Intern
         caption: May 2023 - Aug 2023
         description: | # this will include new lines to allow paragraphs
-          - Returned for a second internship at CME Group, building upon my previous work and further enhancing the application I initially developed.
-          - Implemented configurable validators, allowing adaptable testing conditions and efficient bug detection early in the development cycle.
-          - Dramatically improved application performance, cutting execution time from 16 minutes to 2 minutes, thereby streamlining the development process.
+          - Returned for a second internship at CME Group, further enhancing the application I initially developed.
+          - Implemented configurable validators, allowing adaptable testing conditions in the development cycle.
+          - Dramatically improved application performance, cutting execution time from 16 minutes to 2 minutes.
           - By catching errors early and pinpointing their locations, saved countless developer hours that would otherwise be spent on debugging.
-          - Elevated the application to become an essential tool in the daily development routine, reducing the risk of downstream issues.
+          - Made the application a key tool in daily development, minimizing downstream issues.
       - layout: left
         title: CME Group
         link: cmegroup.com
