@@ -116,7 +116,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Solana Trading System | Python, NodeJS, sklearn, PostgreSQL, AWS
+        title: Solana Trading System | Python, Node.js, sklearn, PostgreSQL, AWS
         link: https://coinstats.app/address/BgrVfkzUTpKMb3M4A5HWgksECZ7FrkRHaj3ofhmDxRxp/
         description: | # this will include new lines to allow paragraphs
           - Developed a machine learning-powered trading system utilizing multiple ML models to predict newly launched solana crypto price movements
@@ -125,7 +125,7 @@ content:
           - Implemented data processing pipelines integrating <mark>blockchain data</mark>, <mark>social media metrics</mark>, <mark>website info</mark> (such as whois & technologies used) and <mark>trading patterns</mark>
 
       - layout: top-middle
-        title: RetailGPT | Javascript
+        title: RetailGPT | Javascript, Node.js, React, Docker, AWS
         link: https://retailgpt.chat/
         description: | # this will include new lines to allow paragraphs
           - Engineered an <mark>AI-powered chatbot</mark> using GPT-4, enabling automated, intelligent customer support for Shopify merchants.
