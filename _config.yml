@@ -121,7 +121,27 @@ content:
           - Developed a web tool helping users find and compare protein powders by nutritional value, price-per-gram, and dietary filters.
           - Built automated Amazon data extraction pipelines leveraging multimodal LLMs to pull accurate, detailed nutritional information from product images.
           - Designed structured data system supporting product variations and intuitive sorting/filtering options (protein per dollar, calories per protein, dietary restrictions, user ratings).
-                    
+           {% mermaid %}
+            flowchart TD
+                A[API] --> |1. Fetch Product Data| B[Cloud Function: fetch_product_data]
+                B --> |Store Raw Data| C[(GCS Bucket: price-per-protein-raw-data)]
+                B --> |Trigger Event| D[PUB: fetched-raw-data]
+                D --> |Listen| E[Cloud Function: process_raw_data]
+                E --> |Store Intermediate Data| F[(GCS Bucket: price-per-protein-intermediate-data)]
+                E --> |Trigger Event| G[PUB: have-intermediate-data]
+                G --> |Listen| H[Cloud Function: update_asin_price]
+                G --> |Listen| I[Cloud Function: fetch_and_store_images]
+                H --> |Update| J[(BigQuery: asin_price_table)]
+                I --> |Store Images| K[(GCS Bucket: price-per-protein-images)]
+                I --> |Trigger Event| L[PUB: got-new-images]
+                L --> |Listen| M[Cloud Function: process_images_with_ai]
+                M --> |Update| N[(BigQuery: asin_nutritional_info_table)]
+                J --> O[BigQuery: Materialized View protein_price_analysis]
+                N --> O
+                P[Cloud Function: view_bigquery_protein_data_cached] --> |Cache Data| Q[(GCS Bucket: price-per-protein-data-cache)]
+                P --> |Serve Data| R[Website: priceperprotein.com]
+                O --> |Fetch Data if Cache Expired| P
+            {% endmermaid %}
       - layout: top-middle
         title: YoutubeTimestamps | JS
         link: https://chromewebstore.google.com/detail/youtube-timestamped-comme/hemochpgdbblobafehgcngacdjmaledg
@@ -281,3 +301,4 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-mermaid
