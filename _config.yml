@@ -163,6 +163,17 @@ content:
           - Designed structured data system supporting product variations and intuitive sorting/filtering options (protein per dollar, calories per protein, dietary restrictions, user ratings).
 
       - layout: top-middle
+        title: Algorithmic Support and Resistance | Python
+        additional_links:
+          - title: Algorithmic Support and Resistance
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/Algorithmic-Support-and-Resistance
+        description: | # this will include new lines to allow paragraphs
+          - Engineered a tool to detect reversal points on stock prices by identifying clusters of local min and max points
+          - Utilized Yahoo Finance for stock price history and visualized charts with marked reversal points.
+          - Project open-sourced on GitHub, garnering <mark>290+ stars</mark> and <mark>50+ forks</mark>.
+
+      - layout: top-middle
         title: YoutubeTimestamps | JS
         link: https://chromewebstore.google.com/detail/youtube-timestamped-comme/hemochpgdbblobafehgcngacdjmaledg
         additional_links:
@@ -184,17 +195,6 @@ content:
           - Developed a responsive and intuitive user interface using React and JavaScript, empowering app developers to track and compare their app's performance against competitors across Google Play and Apple App Stores.
           - Implemented real-time review tracking feature for the Play Store, enabling developers to monitor user sentiment and feedback over time, and correlating this with specific updates to their app.
           - Designed and implemented a Django backend, serving as a RESTful API that scrapes, processes, and delivers app performance data to the frontend.
-
-      - layout: top-middle
-        title: Algorithmic Support and Resistance | Python
-        additional_links:
-          - title: Algorithmic Support and Resistance
-            icon: fab fa-github
-            url: https://github.com/BatuhanUsluel/Algorithmic-Support-and-Resistance
-        description: | # this will include new lines to allow paragraphs
-          - Engineered a tool to detect reversal points on stock prices by identifying clusters of local min and max points
-          - Utilized Yahoo Finance for stock price history and visualized charts with marked reversal points.
-          - Project open-sourced on GitHub, garnering <mark>240+ stars</mark> and <mark>50+ forks</mark>.
 
       - layout: top-middle
         title: Trading Automator Bot | Java
