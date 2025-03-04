@@ -8,15 +8,15 @@ version: 2
 
 # Personal info
 name: Batuhan Usluel
-title: Computer Science + Economics at UIUC
+title: Software Engineer at CME Group
 email: me@batuhanusluel.com
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 # twitter_username: facespics
-github_username:  BatuhanUsluel
+github_username: BatuhanUsluel
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -31,9 +31,9 @@ linkedin_username: batuhanusluel
 
 # Additional icon links
 additional_links:
-- title: Pdf Download
-  icon: far fa-file-pdf
-  url: https://github.com/BatuhanUsluel/BatuhanUsluel.github.io/raw/master/pdf/cv.pdf
+  - title: Pdf Download
+    icon: far fa-file-pdf
+    url: https://github.com/BatuhanUsluel/BatuhanUsluel.github.io/raw/master/pdf/cv.pdf
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -45,47 +45,49 @@ gtm: "G-31794QJRB9"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! I'm Batuhan, a highly motivated Computer Science and Economics student at the University of Illinois at Urbana-Champaign (UIUC), expecting to graduate in May 2024. My passion for coding and problem-solving has been the driving force behind my academic and professional pursuits.
-  
-  My software engineering internship at CME Group gave me invaluable experience in a professional tech environment. There, I built and deployed a real-time testing application for buyer-seller matching engines using Java, which greatly improved the speed at which bugs are caught.
-  
-  My personal project portfolio is a testament to my broad skill set and my enthusiasm for tackling complex, real-world challenges through software. My latest project, 'RetailGPT,' is an AI-powered chatbot for Shopify, developed using GPT-4. It allows customers to inquire about the store's products, shipping information, their specific orders, and more, with the AI using vector databases and function calls to respond. Store owners can manage these conversations from their admin page, making this a full fledged customer service application. This solution is hosted on AWS, ensuring high reliability for customers.
-  
-  Beyond RetailGPT, my projects span emotion-analysis applications, trading bots for cryptocurrencies, data management tools, and more. Each project, whether it involves Python, Java, or JavaScript, is a new learning experience and an opportunity for me to push my boundaries in software development.
-  
-  These endeavors, many of which have garnered significant attention on GitHub, demonstrate my ability to not only code but also conceptualize and execute full-scale, innovative solutions. I am excited to tackle new challenges and am eager to contribute my skills to a dynamic and innovative tech team.
-  
-  As I approach my graduation in May 2024, I am actively seeking new graduate positions where I can apply my technical skills and enthusiasm for problem-solving in a collaborative and innovative environment.
-  
-  Feel free to reach me at [me@batuhanusluel.com](mailto:me@batuhanusluel.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/batuhanusluel) to discuss opportunities or to simply network. I look forward to connecting with you!
+  Hello! I'm Batuhan, a software engineer at CME Group and a graduate of <mark>University of Illinois at Urbana-Champaign</mark> with degrees in <mark>Computer Science</mark> and <mark>Economics</mark> (May 2024). I'm passionate about applying technology to solve challenging problems, from trading infrastructure at CME to innovative personal projects.
 
+  At CME, I'm currently working on Java-based real-time risk management systems.
+
+  One project I'm especially proud of is my <mark>algorithmic trading system</mark> built for the Solana blockchain. Harnessing machine learning, real-time blockchain data, and optimized infrastructure, this system effectively predicted new token price movements and achieved significant returns during peak trading periods (<mark>1500% ROI</mark> in one week).
+
+  I'm always eager to tackle deep technological challenges, especially in fintech, and AI-driven solutions. Feel free to contact me at [me@batuhanusluel.com](mailto:me@batuhanusluel.com) or connect via [LinkedIn](https://www.linkedin.com/in/batuhanusluel). Looking forward to connecting!
 
 content:
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: CME Group
         link: cmegroup.com
-        sub_title: Software Engineer Intern
-        caption: May 2023 - August 2023
+        sub_title: Software Engineer
+        caption: June 2024 - Present
         description: | # this will include new lines to allow paragraphs
-          - Returned for a second internship at CME Group, further enhancing the testing application I initially developed.
-          - Implemented configurable validators, allowing adaptable testing conditions in the development cycle.
-          - Dramatically improved application performance, cutting execution time from 16 minutes to 2 minutes.
-          - By catching errors early and pinpointing their locations, saved countless developer hours that would otherwise be spent on debugging.
-          - Made the application a key tool in daily development, minimizing downstream issues.
+          - First Rotation (June 2024 - January 2025):
+            - Worked on a full-stack application based on <mark>Backstage</mark>, an open-source software catalog for building developer portals
+            - Designed and implemented custom integrations with internal services, streamlining developer workflows and significantly reducing friction in software discovery and deployment.
+
+          - Second Rotation (January 2025 - Present):
+            - Working on Java-based <mark>real-time risk management systems</mark> using <mark>Spring Boot</mark> and <mark>Kafka</mark>
+            - Using in-memory databases for live risk / margin calculations
+
       - layout: left
         title: CME Group
         link: cmegroup.com
         sub_title: Software Engineer Intern
-        caption: May 2022 - August 2022
+        caption: May 2022 - August 2023
         description: | # this will include new lines to allow paragraphs
-          - Built an application in Java for real time testing of CMEs buyer seller matching engines.
-          - Compares outputs of a known working version to a new prototype version.
-          - Replaced periodic manual error checks with an automated alerting system.
-          - Deployed Kafka to listen to engine and relay messages for performance and reliability logs.
+          - Summer 2023:
+            - Designed dynamic validators for trading infrastructure using Java, enabling seamless configurations and revolutionizing software testing flexibility
+            - Reduced execution time by <mark>85%</mark>, significantly improving software development and QA processes
+            - Enhanced early error detection, significantly saving developer hours previously spent on troubleshooting
+            - Transformed the testing tool, positioning it as a vital component in CME's routine software development and QA processes
+
+          - Summer 2022:
+            - Refined a critical Java application, streamlining real-time testing for CME's buyer-seller matching engines
+            - Implemented a comparative analysis feature, allowing for real-time contrast between established outputs and new prototype versions, enhancing quality checks
+            - Implemented automated alerts via <mark>Splunk</mark>, reducing manual checks and increasing system reliability
+            - Leveraged <mark>Kafka</mark> for real-time streaming, reducing system downtime and enhancing reliability metrics
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -94,7 +96,7 @@ content:
         title: University of Illinois at Urbana-Champaign
         caption: |
           January 2022 - Present (Expected Graduation: May 2024)  <br>
-          GPA: 3.93
+          Major GPA: <mark>3.93</mark>
         sub_title: Computer Science + Economics
         # quote: >
         #   GPA: 4.0
@@ -113,35 +115,53 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Solana Trading System | Python, NodeJS, sklearn, PostgreSQL, AWS
+        link: https://coinstats.app/address/BgrVfkzUTpKMb3M4A5HWgksECZ7FrkRHaj3ofhmDxRxp/
+        description: | # this will include new lines to allow paragraphs
+          - Developed a machine learning-powered trading system utilizing multiple ML models to predict newly launched solana crypto price movements
+          - Achieved returns of <mark>1500%</mark> ($50 to $800) within 1 week during peak performance, with <mark>>1000</mark> coins traded
+          - Deployed and maintained a dedicated Solana validator node to optimize trade execution speed and minimize latency
+          - Implemented data processing pipelines integrating <mark>blockchain data</mark>, <mark>social media metrics</mark>, <mark>website info</mark> (such as whois & technologies used) and <mark>trading patterns</mark>
+
+      - layout: top-middle
+        title: RetailGPT | Javascript
+        link: https://retailgpt.chat/
+        description: | # this will include new lines to allow paragraphs
+          - Engineered an <mark>AI-powered chatbot</mark> using GPT-4, enabling automated, intelligent customer support for Shopify merchants.
+          - Utilized <mark>vector databases</mark> to index store pages and products, enabling RetailGPT to retrieve and present relevant information upon customer queries.
+          - Developed a scalable backend with <mark>Node.js</mark> and <mark>Express</mark>, deployed and managed on <mark>AWS</mark>.
+          - Crafted a responsive frontend using <mark>React</mark> and JavaScript, focused on providing an intuitive and seamless user experience.
+
+      - layout: top-middle
+        title: Arbitrage Bot | Python
+        additional_links:
+          - title: Arbitrage Bot
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/ArbitrageBot
+        description: | # this will include new lines to allow paragraphs
+          - Designed and developed a cryptocurrency trading bot that identifies and capitalizes on pricing discrepancies between various exchanges.
+          - Engineered the bot to connect to multiple exchanges through their APIs, fetch real-time price data, and analyze for profitable trading opportunities.
+          - Implemented an automated trading system that executes trades instantly when profitable discrepancies are detected, based on pre-defined criteria.         
+          - Open-sourced the project on GitHub, where it has garnered significant community engagement with <mark>160+ stars</mark> and <mark>60+ forks</mark>, indicating its utility and popularity among developers.
+
+      - layout: top-middle
+        title: InboxVoicer | Python, NodeJS, GCP, Cloudflare, Terraform
+        link: https://inboxvoicer.com/
+        description: | # this will include new lines to allow paragraphs
+          - Developed an automated email-to-audio transcription service.
+          - Utilized Cloudflare and Google Cloud Platform for scalable email handling and audio generation.
+          - Implemented personalized private RSS feeds, enabling users to securely access audio transcriptions directly in their podcast apps.
+          - Leveraged LLMs to clean and enhance transcriptions, structuring them into well-formatted chapters with relevant headers.
 
       - layout: top-middle
         title: PricePerProtein | Python, NodeJS, GCP
         link: priceperprotein.com
         description: | # this will include new lines to allow paragraphs
           - Developed a web tool helping users find and compare protein powders by nutritional value, price-per-gram, and dietary filters.
-          - Built automated Amazon data extraction pipelines leveraging multimodal LLMs to pull accurate, detailed nutritional information from product images.
+          - Built automated Amazon data extraction pipelines leveraging <mark>multimodal LLMs</mark> to pull accurate, detailed nutritional information from product images.
           - Designed structured data system supporting product variations and intuitive sorting/filtering options (protein per dollar, calories per protein, dietary restrictions, user ratings).
-           {% mermaid %}
-            flowchart TD
-                A[API] --> |1. Fetch Product Data| B[Cloud Function: fetch_product_data]
-                B --> |Store Raw Data| C[(GCS Bucket: price-per-protein-raw-data)]
-                B --> |Trigger Event| D[PUB: fetched-raw-data]
-                D --> |Listen| E[Cloud Function: process_raw_data]
-                E --> |Store Intermediate Data| F[(GCS Bucket: price-per-protein-intermediate-data)]
-                E --> |Trigger Event| G[PUB: have-intermediate-data]
-                G --> |Listen| H[Cloud Function: update_asin_price]
-                G --> |Listen| I[Cloud Function: fetch_and_store_images]
-                H --> |Update| J[(BigQuery: asin_price_table)]
-                I --> |Store Images| K[(GCS Bucket: price-per-protein-images)]
-                I --> |Trigger Event| L[PUB: got-new-images]
-                L --> |Listen| M[Cloud Function: process_images_with_ai]
-                M --> |Update| N[(BigQuery: asin_nutritional_info_table)]
-                J --> O[BigQuery: Materialized View protein_price_analysis]
-                N --> O
-                P[Cloud Function: view_bigquery_protein_data_cached] --> |Cache Data| Q[(GCS Bucket: price-per-protein-data-cache)]
-                P --> |Serve Data| R[Website: priceperprotein.com]
-                O --> |Fetch Data if Cache Expired| P
-            {% endmermaid %}
+
       - layout: top-middle
         title: YoutubeTimestamps | JS
         link: https://chromewebstore.google.com/detail/youtube-timestamped-comme/hemochpgdbblobafehgcngacdjmaledg
@@ -155,84 +175,31 @@ content:
           - Added interactive markers and tooltips for seamless user navigation.
 
       - layout: top-middle
-        title: InboxVoicer | Python, NodeJS, GCP, Cloudflare, Terraform
-        link: https://inboxvoicer.com/
-        description: | # this will include new lines to allow paragraphs
-          - Developed an automated email-to-audio transcription service.
-          - Utilized Cloudflare and Google Cloud Platform for scalable email handling and audio generation.
-          - Implemented personalized private RSS feeds, enabling users to securely access audio transcriptions directly in their podcast apps.
-          
-      - layout: top-middle
-        title: Solana Trading System | Python, NodeJS, sklearn, PostgreSQL, AWS
-        link: https://coinstats.app/address/BgrVfkzUTpKMb3M4A5HWgksECZ7FrkRHaj3ofhmDxRxp/
-        description: | # this will include new lines to allow paragraphs
-          - Developed a machine learning-powered trading system utilizing multiple ML models to predict newly launched solana crypto price movements
-          - Achieved returns of 1500% ($50 to $800) within 1 week during peak performance, with >1000 coins traded
-          - Deployed and maintained a dedicated Solana validator node to optimize trade execution speed and minimize latency
-          - Implemented data processing pipelines integrating blockchain data, social media metrics, website info (such as whois \& technologies used) and trading patterns
-      
-      - layout: top-middle
-        title: RetailGPT | Javascript
-        link: https://retailgpt.chat/
-        description: | # this will include new lines to allow paragraphs
-          - Engineered an AI-powered chatbot using GPT-4, enabling automated, intelligent customer support for Shopify merchants.
-          - Utilized vector databases to index store pages and products, enabling RetailGPT to retrieve and present relevant information upon customer queries.
-          - Developed a scalable backend with Node.js and Express, deployed and managed on Amazon Web Services (AWS).
-          - Crafted a responsive frontend using React and JavaScript, focused on providing an intuitive and seamless user experience.
-
-      - layout: top-middle
         title: App Performance Tracker | Javascript & Python
         additional_links:
-          - title:  App Performance Tracker
+          - title: App Performance Tracker
             icon: fab fa-github
             url: https://github.com/CS222-UIUC/course-project-group-negative10
         description: | # this will include new lines to allow paragraphs
-          - Developed a responsive and intuitive user interface using React and JavaScript, empowering app developers to track and compare their app’s performance against competitors across Google Play and Apple App Stores.
+          - Developed a responsive and intuitive user interface using React and JavaScript, empowering app developers to track and compare their app's performance against competitors across Google Play and Apple App Stores.
           - Implemented real-time review tracking feature for the Play Store, enabling developers to monitor user sentiment and feedback over time, and correlating this with specific updates to their app.
           - Designed and implemented a Django backend, serving as a RESTful API that scrapes, processes, and delivers app performance data to the frontend.
 
       - layout: top-middle
-        title: iDetect | Python
-        link: https://devpost.com/software/idetect
-        additional_links:
-          - title:  ClassAttentionDetector
-            icon: fab fa-github
-            url: https://github.com/BatuhanUsluel/ClassAttentionDetector
-          - title:  Demo
-            icon: fab fa-youtube
-            url: https://www.youtube.com/watch?v=9xF6H83u_Nc
-        description: | # this will include new lines to allow paragraphs
-          - Developed "iDetect," a real-time emotion analysis application, at the iMAKE hackathon, enabling speakers in virtual meetings to gauge audience engagement by analyzing video streams.
-          - Utilized Python’s DeepFace library for facial recognition and emotion classification
-          - Designed and implemented data visualization components to display real-time emotion statistics via tables and graphs.
-          
-      - layout: top-middle
         title: Algorithmic Support and Resistance | Python
         additional_links:
-          - title:  Algorithmic Support and Resistance
+          - title: Algorithmic Support and Resistance
             icon: fab fa-github
             url: https://github.com/BatuhanUsluel/Algorithmic-Support-and-Resistance
         description: | # this will include new lines to allow paragraphs
-         - Engineered a tool to detect reversal points on stock prices by identifying clusters of local min and max points
-         - Utilized Yahoo Finance for stock price history and visualized charts with marked reversal points.
-         - Project open-sourced on GitHub, garnering 240+ stars and 50+ forks.
-      
-      - layout: top-middle
-        title: Arbitrage Bot | Python
-        additional_links:
-          - title:  Arbitrage Bot
-            icon: fab fa-github
-            url: https://github.com/BatuhanUsluel/ArbitrageBot
-        description: | # this will include new lines to allow paragraphs
-          - Designed and developed a cryptocurrency trading bot that identifies and capitalizes on pricing discrepancies between various exchanges.
-          - Engineered the bot to connect to multiple exchanges through their APIs, fetch real-time price data, and analyze for profitable trading opportunities.
-          - Implemented an automated trading system that executes trades instantly when profitable discrepancies are detected, based on pre-defined criteria.         
-          - Open-sourced the project on GitHub, where it has garnered significant community engagement with 160+ stars and 60+ forks, indicating its utility and popularity among developers.
+          - Engineered a tool to detect reversal points on stock prices by identifying clusters of local min and max points
+          - Utilized Yahoo Finance for stock price history and visualized charts with marked reversal points.
+          - Project open-sourced on GitHub, garnering <mark>240+ stars</mark> and <mark>50+ forks</mark>.
 
       - layout: top-middle
         title: Trading Automator Bot | Java
         additional_links:
-          - title:  Trading Automator Bot
+          - title: Trading Automator Bot
             icon: fab fa-github
             url: https://github.com/BatuhanUsluel/Trading-Automator-Bot
         description: | # this will include new lines to allow paragraphs
@@ -241,20 +208,35 @@ content:
           - Utilized the Xchange library to facilitate support for dozens of leading cryptocurrency exchanges, simplifying multi-platform trading for users.
 
       - layout: top-middle
+        title: iDetect | Python
+        link: https://devpost.com/software/idetect
+        additional_links:
+          - title: ClassAttentionDetector
+            icon: fab fa-github
+            url: https://github.com/BatuhanUsluel/ClassAttentionDetector
+          - title: Demo
+            icon: fab fa-youtube
+            url: https://www.youtube.com/watch?v=9xF6H83u_Nc
+        description: | # this will include new lines to allow paragraphs
+          - Developed "iDetect," a real-time emotion analysis application, at the iMAKE hackathon, enabling speakers in virtual meetings to gauge audience engagement by analyzing video streams.
+          - Utilized Python's DeepFace library for facial recognition and emotion classification
+          - Designed and implemented data visualization components to display real-time emotion statistics via tables and graphs.
+
+      - layout: top-middle
         title: BTSplit | Python
         additional_links:
-          - title:  BTSplit
+          - title: BTSplit
             icon: fab fa-github
             url: https://github.com/BatuhanUsluel/BTSplit
         description: | # this will include new lines to allow paragraphs
           - Coded a tool to manage large spreadsheet files due to the limitation of ~1 million rows in excel files.
           - Can split a larger file into many sheets or subfiles of various file types, adjusts formulas to point to new cells.
           - Supports different file types (.csv, .xlsx, .xls) and has many customizable settings.
-          
+
       - layout: top-middle
         title: RMV Road Test Appointment Finder | Python
         additional_links:
-          - title:  RMV Road Test Appointment Finder
+          - title: RMV Road Test Appointment Finder
             icon: fab fa-github
             url: https://github.com/BatuhanUsluel/RMV-Road-Test-Appointment-Finder
         description: | # this will include new lines to allow paragraphs
@@ -285,9 +267,6 @@ content:
           - Integrated pyttsx3 for text-to-speech conversion.
           - Configurable options for voice selection, announcement delay, and speaking rate, allowing for personalized user settings via command line arguments.
 
-
-
-
 # Footer
 # footer_show_references: true
 # references_title: References on request (Override references text)
@@ -300,5 +279,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
- - jekyll-mermaid
+  - jekyll-seo-tag
